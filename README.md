@@ -1,5 +1,5 @@
 # DSA
 Data Structure and Algo
 
-#Purpose
+# Purpose
 This Repository basically build to help engineers/students with the data structure and algorithms problems.
