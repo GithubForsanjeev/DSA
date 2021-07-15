@@ -18,8 +18,8 @@ public class ShellSort {
                 int elementToPlace = array[firstUnsortedIndex];
                 int j;
 
-                for (j = firstUnsortedIndex; j > 0 && array[j - 1] > elementToPlace; j--) {
-                    array[j] = array[j - 1];
+                for (j = firstUnsortedIndex; j >=gap && array[j - gap] > elementToPlace; j= j-gap) {
+                    array[j] = array[j - gap];
                 }
                 array[j] = elementToPlace;
             }

@@ -33,7 +33,7 @@ public class MergeSort {
         int tempIndex = 0;
         int[] temp = new int[end - start];
         while (i < mid && j < end) {
-            temp[tempIndex++] = array[i] < array[j] ? array[i++] : array[j++];
+            temp[tempIndex++] = array[i] <= array[j] ? array[i++] : array[j++];
         }
 
         System.arraycopy(array, i, array, start + tempIndex, mid - i);
