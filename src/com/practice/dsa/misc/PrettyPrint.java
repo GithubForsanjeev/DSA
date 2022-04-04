@@ -27,8 +27,8 @@ public class PrettyPrint {
 
     private static void printMatrix(ArrayList<ArrayList<Integer>> matToPrint) {
         for (ArrayList<Integer> integers : matToPrint) {
-            for (int j = 0; j < matToPrint.get(0).size(); j++) {
-                System.out.print(integers.get(j) + " ");
+            for (Integer integer : integers) {
+                System.out.print(integer + " ");
             }
             System.out.println();
         }
