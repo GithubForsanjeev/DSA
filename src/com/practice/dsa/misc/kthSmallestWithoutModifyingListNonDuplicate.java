@@ -15,7 +15,7 @@ import java.util.List;
  *
  * You are not allowed to modify the array ( The array is read only ).
  */
-public class kthSmallestWithoutModifyingList {
+public class kthSmallestWithoutModifyingListNonDuplicate {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(2, 1, 4, 3);
         int k = 3;
